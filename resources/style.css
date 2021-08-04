@@ -1,0 +1,50 @@
+header {
+  background-color: #50ffff;
+  text-align: center;
+  margin-top: 0;
+  border-bottom: solid 1px black;
+  font-family: sans-serif
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 65px;
+  height: 55px;
+  border: solid 1px black;
+  margin: 15px;
+  border-radius: 5px;
+}
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9 {
+  background-color:white;
+  display:flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: sans-serif;
+  cursor: pointer;
+
+}
+article {
+  font-family: sans-serif;
+  color: rgb(94, 116, 116);
+}
+.notes {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonBox {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  border: solid 1px black;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: sans-serif;
+  background-color: #ff7259;
+}
