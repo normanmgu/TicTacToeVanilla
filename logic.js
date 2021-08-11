@@ -20,7 +20,6 @@ let reset = document.getElementById('button');
 let text1 = document.getElementById('note1');
 let text2 = document.getElementById("note2");
 
-
 let round = 0; //keeps track of rounds, is incremented each time playerTurn() is called
 const player1 = 'X';
 const player2 = 'O'
@@ -30,7 +29,7 @@ const winningConditions = [
   //horizontal cases
   [b1 ,b2, b3],
   [b4, b5, b6],
-  [b6, b7, b9],
+  [b6, b7, b9],5
   //vertical cases
   [b1, b4, b7],
   [b2, b5, b8],
